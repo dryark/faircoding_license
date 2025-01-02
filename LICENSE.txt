@@ -59,7 +59,7 @@ CODE that implements/reflects the SOURCE CODE.
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
 DERIVATIVE, DERIVATIVES
-Anything derived from THE SOFTWARE via a MODIFICATION or TRANSMUTATION.
+Anything derived from THE SOFTWARE via a MODIFICATION or MUTATION.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
@@ -106,7 +106,7 @@ Includes but is not limited to:
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-PROVIDE, PROVIDED, PROVISION
+PROVIDE, PROVIDED
 See "Requirement to PROVIDE"
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
@@ -145,8 +145,13 @@ You may use or redistribute MUTATIONS of THE SOFTWARE given you PROVIDE
 SOURCE CODE and BUILD CODE of that MUTATION.
 
 You may LINK THE SOFTWARE with SYSTEMS to create a combined work, and
-use or redistribute that combined work, given that you PROVIDE SOURCE CODE and
-BUILD CODE of the LINKED or included DERIVATIVE or MUTATION of THE SOFTWARE.
+use or redistribute that combined work, given that you PROVIDE SOURCE CODE of
+the LINKED version of THE SOFTWARE.
+
+You may LINK DERIVATIVES of THE SOFTWARE with SYSTEMS to create a combined
+work, and use or redistribute that combined work, given that you BUILD CODE of
+the LINKED or included DERIVATIVE or MUTATION of THE SOFTWARE.
+
 The overall combined work, while utilizing THE SOFTWARE, need not as a whole be
 licensed under this license.
 

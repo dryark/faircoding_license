@@ -1,7 +1,6 @@
 Fair Coding License
 Version 1.0+
 https://faircoding.com/license/fc_1_0.txt
-________________________________________________________________________________
 
 Allows free use, MODIFICATION, and redistribution of THE SOFTWARE,
 under conditions to preserve its freedom.
@@ -15,14 +14,8 @@ Definitions
 -----------
 
 THE SOFTWARE
-* The SOURCE CODE itself being licensed and PROVIDED
+* The SOURCE CODE itself being licensed
 * SOURCE CODE of MODIFICATIONS to THE SOFTWARE
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
-SOFTWARE FORM
-* THE SOFTWARE
-* A BINARY created from THE SOFTWARE
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
@@ -31,29 +24,22 @@ A human comprehensible representation of software or hardware functionality that
 can be used to perform a computational action. Additional steps may be
 required to do so, such as compilation or combination with other SYSTEMS.
 
-This not only includes typical "Software Languages" such as C, but also
-configuration layouts that can be used to write fpga bitstreams or create
-physical electronic circuits.
-
-It includes representations that can be viewed or heard and are not text.
+Examples:
+* Typical "Software Languages" such as C
+* Configuration layouts for creation of fpga bitstreams or electronic circuits.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
 BINARY, BINARIES
-A sequence of bytes that is not easily human comprehensible, but can be utilized
+Data that is not easily human comprehensible, but can be utilized
 to perform some computational/logical action by software or hardware.
 
-Examples:
-* JVM byte code
-* .NET CLR byte code
-* x86 machine code
-* Bitstream for a FPGA
+Examples: JVM bytecode, .NET CLR MSIL, x86 machine code, FPGA Bitstream
 
-Where BINARY is used it refers to such bytes that have been created using some
-process from SOURCE CODE of THE SOFTWARE.
+Where BINARY is used it refers to data created using some process from
+SOURCE CODE of THE SOFTWARE.
 
-Such bytes may include data created from SOURCE CODE that is not part
-of THE SOFTWARE.
+Such BINARY may also be derived from SOURCE CODE not part of THE SOFTWARE.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
@@ -68,71 +54,45 @@ mechanism, regardless of in-between steps.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-SYSTEM, SYSTEMS
-Any software or hardware project, program, service, or system.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
 LINK, LINKING
 The integration, combination, or use of THE SOFTWARE with SYSTEMS by any means.
 
 Includes but is not limited to:
-* Function calls regardless of call method
-  * Direct Linking
-  * Dynamic Binding
-  * Pointer Calls
-* Usage via any API ( Application Programming Interface )
-* Usage via any RPC ( Remote Procedure Call ) method
+* Function calls regardless of call method ( direct, dynamic, pointers, etc )
+* Usage via any API or RPC mechanism
 * Invoking as a subprocess
 * Any other form of software or hardware interaction that allows
   functionalities to be accessed, used, or modified.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-PROVIDE, PROVIDED
-See "Requirement to PROVIDE"
+SOFTWARE FORM            : THE SOFTWARE or A BINARY created from THE SOFTWARE
 
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+SYSTEM, SYSTEMS          : Any SOURCE CODE, program, service, or system.
 
-ENTITY
-A person, business, or legal entity.
+PROVIDE, PROVIDED        : See "Requirement to PROVIDE"
 
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+ENTITY                   : A person, business, or legal entity.
 
-CONTRIBUTOR, CONTRIBUTORS
-An ENTITY engaged in MODIFYING THE SOFTWARE.
+CONTRIBUTOR, CONTRIBUTORS: An ENTITY engaged in MODIFYING THE SOFTWARE.
 
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+OWNER                    : The copyright owner of THE SOFTWARE.
 
-OWNER
-The copyright owner of THE SOFTWARE.
+DISTRIBUTOR              : An ENTITY engaged in redistributing THE SOFTWARE.
 
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
-DISTRIBUTOR
-An ENTITY engaged in redistributing THE SOFTWARE.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
-RECIPIENT, RECIPIENTS
-An ENTITY that utilizes THE SOFTWARE under the terms this license.
+RECIPIENT, RECIPIENTS    : An ENTITY exercising license to THE SOFTWARE.
 ________________________________________________________________________________
 
 Grant of Rights
 ---------------
 
-You may use, copy, MODIFY, and redistribute THE SOFTWARE, provided you adhere to
-the terms of this license.
+You may use, copy, MODIFY, and redistribute THE SOFTWARE.
 
-You may create BINARIES of THE SOFTWARE, provided their use follows the terms
-of this license.
+You may create BINARIES of THE SOFTWARE.
 
 You may LINK a SOFTWARE FORM with SYSTEMS to create a combined work, and use
 or redistribute that combined work, given that you PROVIDE SOURCE CODE of the
 SOFTWARE FORM used.
-
-The overall combined work, while utilizing THE SOFTWARE, need not as a whole be
-licensed under this license.
 
 ________________________________________________________________________________
 
@@ -150,22 +110,14 @@ When BINARIES are redistributed, RECIPIENT must:
 
 ________________________________________________________________________________
 
-MODIFICATION Attribution
-------------------------
+MODIFICATION
+------------
 
-If you MODIFY THE SOFTWARE, you must PROVIDE the following:
-  * The copyright owner of the change ( legal name or legal entity name )
+If you MODIFY THE SOFTWARE, you must PROVIDE:
+  * The copyright owner of the change ( name of legal ENTITY )
   * The date of the change
 
 MODIFICATIONS to THE SOFTWARE must be PROVIDED, even if only used privately.
-
-________________________________________________________________________________
-
-No Anonymous CONTRIBUTORS
--------------------------
-
-CONTRIBUTORS must provide their legal name or the official name of the entity
-making the MODIFICATION. This information must accompany each MODIFICATION.
 
 ________________________________________________________________________________
 

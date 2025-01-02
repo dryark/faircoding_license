@@ -39,15 +39,12 @@ Examples: JVM bytecode, .NET CLR MSIL, x86 machine code, FPGA Bitstream
 Where BINARY is used it refers to data created using some process from
 SOURCE CODE of THE SOFTWARE.
 
-Such BINARY may also be derived from SOURCE CODE not part of THE SOFTWARE.
-
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
 MODIFY, MODIFIED, MODIFICATION, MODIFICATIONS
-Changes made to THE SOFTWARE, including alterations, enhancements, updates,
-or other modifications.
+Any change to THE SOFTWARE.
 
-This includes translation of THE SOFTWARE into SOURCE CODE of another type.
+Includes translation of THE SOFTWARE into SOURCE CODE of another type.
 
 Includes any process to produce new SOURCE CODE from THE SOFTWARE via any
 mechanism, regardless of in-between steps.
@@ -66,7 +63,7 @@ Includes but is not limited to:
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-SOFTWARE FORM            : THE SOFTWARE or A BINARY created from THE SOFTWARE
+SOFTWARE FORM            : THE SOFTWARE or a BINARY created from THE SOFTWARE
 
 SYSTEM, SYSTEMS          : Any SOURCE CODE, program, service, or system.
 
@@ -76,11 +73,12 @@ ENTITY                   : A person, business, or legal entity.
 
 CONTRIBUTOR, CONTRIBUTORS: An ENTITY engaged in MODIFYING THE SOFTWARE.
 
-OWNER                    : The copyright owner of THE SOFTWARE.
+OWNER(s)                 : The copyright owner(s) of THE SOFTWARE.
 
 DISTRIBUTOR              : An ENTITY engaged in redistributing THE SOFTWARE.
 
 RECIPIENT, RECIPIENTS    : An ENTITY exercising license to THE SOFTWARE.
+
 ________________________________________________________________________________
 
 Grant of Rights
@@ -154,8 +152,9 @@ ________________________________________________________________________________
 Limitation of Liability
 -----------------------
 
-Unless required by law no OWNER, CONTRIBUTOR, or DISTRIBUTOR will be liable for
-damages of any sort arising out of the use of or inability to use THE SOFTWARE.
+Unless required by law no OWNER(s), CONTRIBUTOR, or DISTRIBUTOR will be liable
+for damages of any sort arising out of the use of or inability to use
+THE SOFTWARE.
 
 ________________________________________________________________________________
 

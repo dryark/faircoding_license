@@ -148,9 +148,9 @@ You may LINK THE SOFTWARE with SYSTEMS to create a combined work, and
 use or redistribute that combined work, given that you PROVIDE SOURCE CODE of
 the LINKED version of THE SOFTWARE.
 
-You may LINK DERIVATIVES of THE SOFTWARE with SYSTEMS to create a combined
-work, and use or redistribute that combined work, given that you BUILD CODE of
-the LINKED or included DERIVATIVE or MUTATION of THE SOFTWARE.
+You may LINK ALTERED BYTE CODE of THE SOFTWARE with SYSTEMS to create a combined
+work, and use or redistribute that combined work, given that you provide 
+BUILD CODE of the ALTERED BYTE CODE.
 
 The overall combined work, while utilizing THE SOFTWARE, need not as a whole be
 licensed under this license.

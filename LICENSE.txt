@@ -4,8 +4,7 @@ https://faircoding.com/license/fc_1_0.txt
 ________________________________________________________________________________
 
 Allows free use, MODIFICATION, and redistribution of THE SOFTWARE,
-under conditions to preserve its freedom. LINKING THE SOFTWARE with SYSTEMs is
-allowed.
+under conditions to preserve its freedom.
 
 MODIFICATIONS to THE SOFTWARE must be PROVIDED, even if THE SOFTWARE is used
 privately.
@@ -15,73 +14,57 @@ ________________________________________________________________________________
 Definitions
 -----------
 
-THE SOURCE
+THE SOFTWARE
 * The SOURCE CODE itself being licensed and PROVIDED
+* SOURCE CODE of MODIFICATIONS to THE SOFTWARE
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-THE SOFTWARE
-* THE SOURCE
-* MODIFICATIONS to THE SOFTWARE
-* ALTERED BYTE CODE
+SOFTWARE FORM
+* THE SOFTWARE
+* A BINARY created from THE SOFTWARE
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
 SOURCE CODE
-A human readable representation of software or hardware functionality that
+A human comprehensible representation of software or hardware functionality that
 can be used to perform a computational action. Additional steps may be
 required to do so, such as compilation or combination with other SYSTEMS.
 
+This not only includes typical "Software Languages" such as C, but also
+configuration layouts that can be used to write fpga bitstreams or create
+physical electronic circuits.
+
+It includes representations that can be viewed or heard and are not text.
+
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-BUILD CODE
-SOURCE CODE that provides instructions on how to convert SOURCE CODE into some
-specific BYTE CODE.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
-BYTE CODE
-A sequence of bytes that is not easily human readable, but can be utilized
+BINARY, BINARIES
+A sequence of bytes that is not easily human comprehensible, but can be utilized
 to perform some computational/logical action by software or hardware.
 
 Examples:
 * JVM byte code
 * .NET CLR byte code
 * x86 machine code
+* Bitstream for a FPGA
 
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+Where BINARY is used it refers to such bytes that have been created using some
+process from SOURCE CODE of THE SOFTWARE.
 
-ALTERED BYTE CODE
-BYTE CODE that was created via some method from the SOURCE CODE where the
-BYTE CODE has been further altered to change the functionality of the BYTE
-CODE that implements/reflects the SOURCE CODE.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
-DERIVATIVE, DERIVATIVES
-Anything derived from THE SOFTWARE via a MODIFICATION or MUTATION.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
-
-MUTATION, MUTATIONS
-
-* Translation of THE SOFTWARE into another software or hardware language.
-
-* Compilation of THE SOFTWARE into BYTE CODE
-
-* Alteration to produce new SOURCE CODE via any mechanism
-
-  Examples:
-    * Ingestion into a AI/ML system which is then utilized to produce outputs
-      that are SOURCE CODE and have utilized THE SOFTWARE to be able to produce
-      that output.
-    * Automatic code cleanup / formatting
+Such bytes may include data created from SOURCE CODE that is not part
+of THE SOFTWARE.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
 MODIFY, MODIFIED, MODIFICATION, MODIFICATIONS
 Changes made to THE SOFTWARE, including alterations, enhancements, updates,
 or other modifications.
+
+This includes translation of THE SOFTWARE into SOURCE CODE of another type.
+
+Includes any process to produce new SOURCE CODE from THE SOFTWARE via any
+mechanism, regardless of in-between steps.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
@@ -138,17 +121,32 @@ ________________________________________________________________________________
 Grant of Rights
 ---------------
 
-You may use, copy, MODIFY, and redistribute THE SOURCE, provided you adhere to
+You may use, copy, MODIFY, and redistribute THE SOFTWARE, provided you adhere to
 the terms of this license.
 
-You may use or redistribute THE SOFTWARE, given the terms of this license.
+You may create BINARIES of THE SOFTWARE, provided their use follows the terms
+of this license.
 
-You may LINK THE SOFTWARE with SYSTEMS to create a combined work, and
-use or redistribute that combined work, given that you PROVIDE SOURCE CODE of
-the LINKED version of THE SOFTWARE.
+You may LINK a SOFTWARE FORM with SYSTEMS to create a combined work, and use
+or redistribute that combined work, given that you PROVIDE SOURCE CODE of the
+SOFTWARE FORM used.
 
 The overall combined work, while utilizing THE SOFTWARE, need not as a whole be
 licensed under this license.
+
+________________________________________________________________________________
+
+LICENSE Retention and Notification
+----------------------------------
+
+Any copied, MODIFIED, redistributed, or PROVIDED SOFTWARE FORM must be
+licensed under this same license.
+
+When BINARIES are redistributed, RECIPIENT must:
+* Provides notice and reference to THE SOFTWARE that is being licensed
+* Inform those they are redistributing to that the BINARY remains under this
+  license and may only be used, copied, or redistributed by following the
+  license.
 
 ________________________________________________________________________________
 
@@ -174,7 +172,7 @@ ________________________________________________________________________________
 Representation
 --------------
 
-CONTRIBUTORS agree that their contributions are their original creation or that
+CONTRIBUTORS agree that their MODIFICATIONS are their original creation or that
 they have sufficient rights to grant the rights to their MODIFICATIONS conveyed
 by this license.
 
@@ -191,9 +189,9 @@ ________________________________________________________________________________
 Disclaimer of Warranty
 ----------------------
 
-THE SOFTWARE is provided "as is," without warranty of any type.
-
-THE SOFTWARE is not claimed to be free of defects or fit for any purpose.
+THE SOFTWARE is:
+* Provided "as is," without warranty of any type.
+* Not claimed to be free of defects or fit for any purpose.
 
 All risk associated with using THE SOFTWARE is your own.
 
@@ -205,82 +203,48 @@ Limitation of Liability
 -----------------------
 
 Unless required by law no OWNER, CONTRIBUTOR, or DISTRIBUTOR will be liable for
-damages of any sort arising out of the use or inability to use THE SOFTWARE.
+damages of any sort arising out of the use of or inability to use THE SOFTWARE.
 
 ________________________________________________________________________________
 
 Severability
 ------------
-If any provision of this license, or the application thereof to any person or
-circumstance, is held invalid or unenforceable to any extent, the remainder of
-this license and the application of such provisions to other persons or
-circumstances shall not be affected thereby and shall be enforced to the
-greatest extent permitted by law. Each provision of this license shall be
-valid and enforced to the fullest extent permitted by law.
+
+If any part of this license is found to be invalid or unenforceable for some
+people or situations, it will not affect the rest of the license nor
+invalidate application of the license in other situations or for other people.
+
+Whatever portion of the license is able to apply and be enforced shall be.
 
 ________________________________________________________________________________
 
 Requirement to PROVIDE
 ----------------------
 
-Where this license requires that CODE ( SOURCE CODE or BUILD CODE )
-must be PROVIDED:
+Where this license requires that content must be PROVIDED, that content must:
+* Be freely available online to the public with reasonable discoverability.
+* Be available without any registration or limitation of who accesses that
+  content or why.
+* Remain available as long as THE SOFTWARE is being used or redistributed.
 
-* CODE must be disclosed and accessible to the public in a manner that ensures
-  reasonable discoverability.
-* CODE must be made available online in a public fashion that allows download
-  or sharing of that content for free without any registration or limitation
-  of who accesses that content or why.
-* The online distribution must be discoverable via navigation from the root
-  of a domain via normal HTTP links within 10 navigations. One simple method
-  to ensure this would be to have a site tree that is linked on the homepage
-  and have source code be a point in that site tree.
-  
-Provision of the CODE on a public Github repo is sufficient to count
-as a online location. It is reccomended but not required to link to that
-Github from a domain or website associated with the company or person
-utilizing THE SOFTWARE.
+Such content must be provided within 90 days of the first usage of a
+SOFTWARE FORM for any use beyond testing and development.
 
 ________________________________________________________________________________
 
-Development Allowance
----------------------
+Prohibition on Circumvention of MODIFICATION PROVISION
+------------------------------------------------------
 
-CONTRIBUTORS of THE SOFTWARE are allowed a development period to refine and
-test changes. The MODIFIED software must be PROVIDED only if and when it is
-actually used for some purpose beyond development and testing.
-
-Once MODIFIED versions of THE SOFTWARE are used such, the CONTRIBUTOR must
-PROVIDE SOURCE CODE of the MODIFICATIONS within 90 days.
-
-Where BUILD CODE is required to be PROVIDED, it also must be PROVIDED within
-90 days.
-
-________________________________________________________________________________
-
-
-END REMOVABLE SECTION
-________________________________________________________________________________
-
-Prohibition on Circumvention
-----------------------------
-
-While LINKING of THE SOFTWARE with proprietary modules is permitted under
-this license, LINKING that serves the purpose of reimplementing or substituting
-features or functionality of the software in order to change it, without
-providing these changes under this license, is expressly forbidden.
-
-This clause is intended to prevent the use of LINKING as a method to circumvent
-the requirement to disclose modifications or enhancements made to the
-software. Any such attempt to reimplement features or functionalities of
-THE SOFTWARE through LINKING, for the purpose of altering THE SOFTWARE's
-behavior or functionality without releasing the resulting modifications under
-this license, will be considered a breach of the license terms.
+LINKING that accomplishes any these is forbidden:
+* Reimplementing or substituting features or functionality of a SOFTWARE FORM
+* Altering the internal behavior of a SOFTWARE FORM where it would be more
+  sensible to MODIFY THE SOFTWARE.
+* "Hooking" or "Injection" of changes into a SOFTWARE FORM
 
 ________________________________________________________________________________
 
 Patent Grant
-------------------------
+------------
 
 If a patented method or technology is added to, implemented in, or used in
 THE SOFTWARE, the CONTRIBUTOR must provide a patent grant. This grant must
@@ -294,29 +258,20 @@ clearly identify the patent and the scope of the grant.
 
 The signed patent grant PDF must be included in SOURCE CODE within a directory
 named patents. This directory must be accessible to all users who have access
-to the SOURCE CODE that is PROVIDED.
-
-This requirement ensures that RECIPIENTS can use, modify, and redistribute
-THE SOFTWARE freely without the risk of patent infringement claims. This
-provision ensures that any enhancements made that involve patented
-technology are shared openly, freely, and fairly with the community.
+to the THE SOFTWARE that is PROVIDED.
 
 ________________________________________________________________________________
 
 Future License Revision Auto-Adoption
 -------------------------------------
 
-To ease refinement of this license, the default incarnation of this license
-allows automatic migration of the license to revised terms:
-
 This section, starting from "Future License Revision Auto-Adoption" until the
-end of the file, may be removed by any CONTRIBUTOR who wishes to. If that is
-done, the "+" from the end of the version number of the license at the top of
-this file may and must be removed as well.
+end of the file, may be removed by any CONTRIBUTOR who wishes to. If removed,
+the trailing "+" on the version number at the top must be removed.
 
-It is understood and allowed to relicense the code under the latest version of
-the "Fair Coding License" as distributed by Dry Ark LLC, given the following
-requirements for those future license revisions:
+It is allowed to relicense THE SOFTWARE under the latest version of the
+"Fair Coding License" as distributed by Dry Ark LLC, given the following
+requirements for that future license revision:
 
 A. The revision remains true to the spirit of the original license.
 
@@ -324,16 +279,3 @@ B. The revision remains focused on preserving the freedom to use, modify, and
 distribute THE SOFTWARE, while preventing private modifications.
 
 C. The revision adds no cost requirements to utilizing THE SOFTWARE.
-
-We encourage you to leave this requirement intact so that you don't get stuck
-in a situation where you are unable to adopt new protections in revisions due
-to a wide number of CONTRIBUTORS.
-
-This is intended to foster a collaborative development environment and 
-ensure that enhancements to THE SOFTWARE or uses of it that result in
-derivative works, remain accessible and beneficial to the community.
-
-CONTRIBUTORS are encouraged to engage constructively in efforts to refine and
-improve the licensing terms to reflect advances in software development
-practices and to close any loopholes that might allow circumvention of the
-collaborative spirit of this license.

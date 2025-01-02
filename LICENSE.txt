@@ -141,16 +141,11 @@ Grant of Rights
 You may use, copy, MODIFY, and redistribute THE SOURCE, provided you adhere to
 the terms of this license.
 
-You may use or redistribute MUTATIONS of THE SOFTWARE given you PROVIDE
-SOURCE CODE and BUILD CODE of that MUTATION.
+You may use or redistribute THE SOFTWARE, given the terms of this license.
 
 You may LINK THE SOFTWARE with SYSTEMS to create a combined work, and
 use or redistribute that combined work, given that you PROVIDE SOURCE CODE of
 the LINKED version of THE SOFTWARE.
-
-You may LINK ALTERED BYTE CODE of THE SOFTWARE with SYSTEMS to create a combined
-work, and use or redistribute that combined work, given that you provide 
-BUILD CODE of the ALTERED BYTE CODE.
 
 The overall combined work, while utilizing THE SOFTWARE, need not as a whole be
 licensed under this license.

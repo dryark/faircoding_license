@@ -22,41 +22,47 @@ There is the usual legal terminology, and it is carefully written to close vario
 
 == Example index
 
-* <<q1,I'm using the project in a program I am running myself>>
+* <<q1,I'm using a FCL project in a program I am running myself>>
 
-* <<q2,I'm using the project in a program I am selling / licensing to others>>
+* <<q2,I'm using a FCL project in a program I am selling / licensing to others>>
 
-* <<q3,I'm using the project at work, in a private system>>
+* <<q3,I'm using a FCL project at work, in a private system>>
 
-* <<q4,I forked the project, and am improving it>>
+* <<q4,I forked a FCL project, and am improving it>>
 
-* <<q5,I forked the project, and am accepting PRs>>
+* <<q5,I forked a FCL project, and am accepting PRs>>
 
-* <<q6,I forked the project, and got an anonymous PR>>
+* <<q6,I forked a FCL project, and got an anonymous PR>>
 
-* <<q7,I work for a Linux distro and want to ship your software>>
+* <<q7,I work for a Linux distro and want to ship a FCL project>>
 
-* <<q8,I read the code and saw a nifty bit that I've lifted>>
+* <<q8,I read a FCL project and saw a nifty bit that I've lifted>>
 
-* <<q9,I ingested a project under this license into my LLM>>
+* <<q9,I ingested a FCL project under this license into my LLM>>
 
-* <<q10,I want to add a feature to a project, but I don't want it under this license>>
+* <<q10,I want to add a feature to a FCL project, but I don't want it under this license>>
 
-* <<q11,I want to extend a feature in a project to do more, but I don't want my extension under this license>>
+* <<q11,I want to extend a feature in a FCL project to do more, but I don't want my extension under this license>>
 
 * <<q12,I packaged a FCL project and added man pages for it>>
 
 * <<q13,Can I use LGPL code within a FCL project?>>
 
+* <<q14,Can I use GPL code within a FCL project?>>
+
+* <<q15,Can I use AGPL code within a FCL project?>>
+
+* <<q16,I have a binary built from an FCL project but I don't know what source code it was built from.>>
+
 == Examples
 
 [[q1]]
-=== I'm using the project in a program I am running myself
+=== I'm using a FCL project in a program I am running myself
 
 This one is easy. You can simply do so without having to do anything extra.
 
 [[q2]]
-=== I'm using the project in a program I am selling / licensing to others
+=== I'm using a FCL project in a program I am selling / licensing to others
 
 If you are just using the project in your code, you can do the following:
 
@@ -69,12 +75,12 @@ The license requires that the code you link to be available for a year, so it is
 If you just linked to a random Github repo you used, it's possible whoever put up that repo may pull it down when your users may still want to access it.
 
 [[q3]]
-=== I'm using the project at work, in a private system
+=== I'm using a FCL project at work, in a private system
 
 Just like the previous example, you need to mention to users, which includes users of the system within your company, that you are using the project.
 
 [[q4]]
-=== I forked the project, and am improving it
+=== I forked a FCL project, and am improving it
 
 You need to release your improvements. If you are using the changed code in any way you need to push the changes to a public repo for others to benefit within 90 days of using those changes yourself.
 
@@ -83,26 +89,26 @@ You further must identify your legal name publicly or the legal name of the enti
 If you don't want to reveal your name, you'll need to give your changes to someone to own who is willing to do so.  Or give the changes to a company and have them own the changes.
 
 [[q5]]
-=== I forked the project, and am accepting PRs
+=== I forked a FCL project, and am accepting PRs
 
 You'll need to ensure that for each PR the legal name of the copyright owner of the change is known.
 
 As this is uncommon with other licenses, you should probably add a contribution section to your readme and mention this so that people are aware it is necessary.
 
 [[q6]]
-=== I forked the project, and got an anonymous PR
+=== I forked a FCL project, and got an anonymous PR
 
 You can't merge that PR. It is in violation of the license.
 
 [[q7]]
-=== I work for a Linux distro and want to ship your software
+=== I work for a Linux distro and want to ship a FCL project
 
 Easy enough. Just keep the license with the software and/or any binaries of it.
 
 If you have to patch the project in some way to make it build for all your platforms, that patch is a modification and needs to be published. From the date of the patch you need to ensure the public can get that patch for 1 year.
 
 [[q8]]
-=== I read the code and saw a nifty bit that I've lifted
+=== I read a FCL project and saw a nifty bit that I've lifted
 
 That's fine, if you license all the code where you use that bit under this license.
 
@@ -113,7 +119,7 @@ Any process by which you create code resulting from having done something with t
 You can't just read the code and steal ideas from it without fairly placing those new ideas into the same license.
 
 [[q9]]
-=== I ingested a project under this license into my LLM
+=== I ingested a FCL project under this license into my LLM
 
 Okay, but as a result any output from your LLM may be required to be licensed under this license. Additionally you'll have to tell every user of your LLM that your LLM ingested the project, and that any output may be tainted by the license.
 
@@ -122,7 +128,7 @@ As there is no way to tell if an output of the LLM used information gleaned from
 Essentially, don't ingest the project into your LLM. The license allows it only if all outputs of your LLM are licensed under this license.
 
 [[q10]]
-=== I want to add a feature to a project, but I don't want it under this license
+=== I want to add a feature to a FCL project, but I don't want it under this license
 
 Okay, you can actually do this by creating your feature in a new project that links to the FCL instead of modifying the project itself.
 
@@ -131,8 +137,7 @@ If you do that you just have to state that you are using the project and share t
 You really shouldn't do this sort of thing, as it isn't in the spirit of cooperation, but it is allowed by the license.
 
 [[q11]]
-=== I want to extend a feature in a project to do more, but 
-I don't want my extension under this license
+=== I want to extend a feature in a FCL project to do more, but I don't want my extension under this license
 
 Ok, so like the previous example you probably are calling into the project via linking, but you've found you need to make some changes to the project to get your extension to function as needed.
 

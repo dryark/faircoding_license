@@ -1,17 +1,14 @@
-Fair Coding License
-Version 1.0+
+Fair Coding License 1.0+
 https://faircoding.com/license/fc_1_0.txt
 
-Allows free use, MODIFICATION, and redistribution of THE SOFTWARE,
-under conditions to preserve its freedom.
+Allows free use, MODIFICATION, and redistribution of THE SOFTWARE, under
+conditions to preserve its freedom.
 
-MODIFICATIONS to THE SOFTWARE must be PROVIDED, even if THE SOFTWARE is used
-privately.
+You must PROVIDE all MODIFICATIONS to THE SOFTWARE, even if only used privately.
 
 ________________________________________________________________________________
 
-Definitions
------------
+== Definitions ==
 
 THE SOFTWARE
 * The SOURCE CODE itself being licensed
@@ -21,123 +18,123 @@ THE SOFTWARE
 
 SOURCE CODE
 A human comprehensible representation of software or hardware functionality that
-can be used to perform a computational action. Additional steps may be
-required to do so, such as compilation or combination with other SYSTEMS.
+is useful in some way. Additional steps may be required to do so, such as
+compilation or combination with a SYSTEM.
 
 Examples:
-* Typical "Software Languages" such as C
+* "Software Languages" such as C
 * Configuration layouts for creation of fpga bitstreams or electronic circuits.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-BINARY, BINARIES
-Data that is not easily human comprehensible, but can be utilized
-to perform some computational/logical action by software or hardware.
+BINARY
+Data that is not easily human comprehensible, but is useful in some way.
 
 Examples: JVM bytecode, .NET CLR MSIL, x86 machine code, FPGA Bitstream
 
-Where BINARY is used it refers to data created using some process from
-SOURCE CODE of THE SOFTWARE.
-
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-MODIFY, MODIFIED, MODIFICATION, MODIFICATIONS
+MODIFICATION
 Any change to THE SOFTWARE.
 
 Includes translation of THE SOFTWARE into SOURCE CODE of another type.
 
-Includes any process to produce new SOURCE CODE from THE SOFTWARE via any
-mechanism, regardless of in-between steps.
+Includes any process to produce new SOURCE CODE from THE SOFTWARE regardless
+of in-between steps in any form including possible BINARY forms.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-LINK, LINKING
-The integration, combination, or use of THE SOFTWARE with SYSTEMS by any means.
+LINKING
+The integration, combination, or use of THE SOFTWARE with a SYSTEM by any means.
 
 Includes but is not limited to:
 * Function calls regardless of call method ( direct, dynamic, pointers, etc )
-* Usage via any API or RPC mechanism
+* Usage via an API, RPC, or similar
 * Invoking as a subprocess
-* Any other form of software or hardware interaction that allows
-  functionalities to be accessed, used, or modified.
+* Any form of software or hardware interaction that allows functionalities to
+  be accessed, used, or modified.
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-SOFTWARE FORM            : THE SOFTWARE or a BINARY created from THE SOFTWARE
+PROVIDE
+To make some content:
+* Be freely available online to the public with reasonable discoverability.
+* Be available without any registration or limitation of who accesses that
+  content or why.
+* Remain available as long as THE SOFTWARE is being used or redistributed.
 
-SYSTEM, SYSTEMS          : Any SOURCE CODE, program, service, or system.
+Such content must be provided within 90 days of the first usage of a
+SOFTWARE FORM for any use beyond testing or development of the SOFTWARE FORM.
 
-PROVIDE, PROVIDED        : See "Requirement to PROVIDE"
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 
-ENTITY                   : A person, business, or legal entity.
+SOFTWARE FORM : THE SOFTWARE or a BINARY created from THE SOFTWARE.
 
-CONTRIBUTOR, CONTRIBUTORS: An ENTITY engaged in MODIFYING THE SOFTWARE.
+SYSTEM        : Any SOURCE CODE or BINARY separate from THE SOFTWARE.
 
-OWNER(s)                 : The copyright owner(s) of THE SOFTWARE.
+ENTITY        : A person, business, or legal entity.
 
-DISTRIBUTOR              : An ENTITY engaged in redistributing THE SOFTWARE.
+CONTRIBUTOR   : A copyright owner of THE SOFTWARE or some portion.
 
-RECIPIENT, RECIPIENTS    : An ENTITY exercising license to THE SOFTWARE.
+DISTRIBUTOR   : An ENTITY engaged in redistributing THE SOFTWARE.
 
-________________________________________________________________________________
+RECIPIENT     : An ENTITY exercising license to THE SOFTWARE.
 
-Grant of Rights
----------------
+MODIFY        : To make a MODIFICATION.
 
-You may use, copy, MODIFY, and redistribute THE SOFTWARE.
+MODIFIED      : Have made a MODIFICATION.
 
-You may create BINARIES of THE SOFTWARE.
-
-You may LINK a SOFTWARE FORM with SYSTEMS to create a combined work, and use
-or redistribute that combined work, given that you PROVIDE SOURCE CODE of the
-SOFTWARE FORM used.
-
-________________________________________________________________________________
-
-LICENSE Retention and Notification
-----------------------------------
-
-Any copied, MODIFIED, redistributed, or PROVIDED SOFTWARE FORM must be
-licensed under this same license.
-
-When BINARIES are redistributed, RECIPIENT must:
-* Provides notice and reference to THE SOFTWARE that is being licensed
-* Inform those they are redistributing to that the BINARY remains under this
-  license and may only be used, copied, or redistributed by following the
-  license.
+MODIFICATIONS : One or more MODIFICATION.
 
 ________________________________________________________________________________
 
-MODIFICATION
-------------
+== Grant of Rights ==
+
+You may use, copy, MODIFY, redistribute, or create a BINARY of THE SOFTWARE.
+
+You may engage in LINKING a SOFTWARE FORM with a SYSTEM to create a combined
+work, and use or redistribute that combined work, given that you PROVIDE
+SOURCE CODE of the SOFTWARE FORM used.
+
+________________________________________________________________________________
+
+== LICENSE Retention and Attribution ==
+
+Any copied or redistributed SOFTWARE FORM must retain this license.
+
+Any MODIFIED SOFTWARE FORM must be licensed under this license.
+
+When a BINARY of THE SOFTWARE is redistributed, you must inform recipients of:
+* THE SOFTWARE that is being licensed.
+* This license for the included BINARY.
+
+________________________________________________________________________________
+
+== Modification ==
 
 If you MODIFY THE SOFTWARE, you must PROVIDE:
+  * The resulting SOURCE CODE
   * The copyright owner of the change ( name of legal ENTITY )
   * The date of the change
 
-MODIFICATIONS to THE SOFTWARE must be PROVIDED, even if only used privately.
+________________________________________________________________________________
+
+== Representation ==
+
+You agree that your MODIFICATIONS to THE SOFTWARE are your original creations or
+that you have sufficient rights to grant the rights to those MODIFICATIONS
+conveyed by this license.
 
 ________________________________________________________________________________
 
-Representation
---------------
-
-CONTRIBUTORS agree that their MODIFICATIONS are their original creation or that
-they have sufficient rights to grant the rights to their MODIFICATIONS conveyed
-by this license.
-
-________________________________________________________________________________
-
-Termination
------------
+== Termination ==
 
 If you fail to comply with the terms of this license, your rights under this
-license will terminate automatically without notice.
+license terminate immediately.
 
 ________________________________________________________________________________
 
-Disclaimer of Warranty
-----------------------
+== Disclaimer of Warranty ==
 
 THE SOFTWARE is:
 * Provided "as is," without warranty of any type.
@@ -149,42 +146,22 @@ Should THE SOFTWARE prove defective, you are responsible.
 
 ________________________________________________________________________________
 
-Limitation of Liability
------------------------
+== Limitation of Liability ==
 
-Unless required by law no OWNER(s), CONTRIBUTOR, or DISTRIBUTOR will be liable
-for damages of any sort arising out of the use of or inability to use
-THE SOFTWARE.
+Unless required by law no CONTRIBUTOR or DISTRIBUTOR will be liable for damages
+of any sort arising out of the use of or inability to use THE SOFTWARE.
 
 ________________________________________________________________________________
 
-Severability
-------------
+== Severability ==
 
 If any part of this license is found to be invalid or unenforceable for some
-people or situations, it will not affect the rest of the license nor
-invalidate application of the license in other situations or for other people.
-
-Whatever portion of the license is able to apply and be enforced shall be.
+people or situations, the license portion that can be applied will be for all
+applicable people and situations.
 
 ________________________________________________________________________________
 
-Requirement to PROVIDE
-----------------------
-
-Where this license requires that content must be PROVIDED, that content must:
-* Be freely available online to the public with reasonable discoverability.
-* Be available without any registration or limitation of who accesses that
-  content or why.
-* Remain available as long as THE SOFTWARE is being used or redistributed.
-
-Such content must be provided within 90 days of the first usage of a
-SOFTWARE FORM for any use beyond testing and development.
-
-________________________________________________________________________________
-
-Prohibition on Circumvention of MODIFICATION PROVISION
-------------------------------------------------------
+== Prohibition on Circumvention to PROVIDE ==
 
 LINKING that accomplishes any these is forbidden:
 * Reimplementing or substituting features or functionality of a SOFTWARE FORM
@@ -194,39 +171,33 @@ LINKING that accomplishes any these is forbidden:
 
 ________________________________________________________________________________
 
-Patent Grant
-------------
+== Patent Grant ==
 
-If a patented method or technology is added to, implemented in, or used in
-THE SOFTWARE, the CONTRIBUTOR must provide a patent grant. This grant must
-explicitly allow users of THE SOFTWARE to use the patented method or technology
-that is utilized in the software under the terms of this license without
-additional charges or restrictions.
+If you utilize a patent within THE SOFTWARE, you must provide a patent grant
+that allows RECIPIENTS of THE SOFTWARE to use the patent in the way that is
+utilized in THE SOFTWARE under the terms of this license without additional
+charges or restrictions.
 
 The patent grant must be provided in the form of a legally signed PDF document
 by an individual authorized to grant the use of the patent. The document must
 clearly identify the patent and the scope of the grant.
 
 The signed patent grant PDF must be included in SOURCE CODE within a directory
-named patents. This directory must be accessible to all users who have access
-to the THE SOFTWARE that is PROVIDED.
+named patents when you PROVIDE THE SOFTWARE.
 
 ________________________________________________________________________________
 
-Future License Revision Auto-Adoption
--------------------------------------
+== License Revision Auto-Adoption ==
 
-This section, starting from "Future License Revision Auto-Adoption" until the
-end of the file, may be removed by any CONTRIBUTOR who wishes to. If removed,
-the trailing "+" on the version number at the top must be removed.
+You may remove this section. If you do, remove the "+" from the license version.
 
-It is allowed to relicense THE SOFTWARE under the latest version of the
-"Fair Coding License" as distributed by Dry Ark LLC, given the following
-requirements for that future license revision:
+You agree to allow anyone to relicense THE SOFTWARE under the latest revision of
+the "Fair Coding License" as distributed by Dry Ark LLC, given the following
+requirements for that revision:
 
-A. The revision remains true to the spirit of the original license.
+A. It remains true to the spirit of the original license.
 
-B. The revision remains focused on preserving the freedom to use, modify, and
+B. It remains focused on preserving the freedom to use, modify, and
 distribute THE SOFTWARE, while preventing private modifications.
 
-C. The revision adds no cost requirements to utilizing THE SOFTWARE.
+C. It adds no cost requirement to utilizing THE SOFTWARE.

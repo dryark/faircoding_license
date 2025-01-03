@@ -6,7 +6,7 @@ ________________________________________________________________________________
 
 THE SOFTWARE
 * The SOURCE CODE itself being licensed
-* SOURCE CODE of MODIFICATIONS to THE SOFTWARE
+* SOURCE CODE of any MODIFICATION to THE SOFTWARE
 _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 SOURCE CODE
@@ -70,10 +70,6 @@ RECIPIENT     : An ENTITY exercising license to THE SOFTWARE.
 
 MODIFY        : To make a MODIFICATION.
 
-MODIFIED      : Have made a MODIFICATION.
-
-MODIFICATIONS : One or more MODIFICATION.
-
 LINKED FORM   : A BINARY created by LINKING of THE SOFTWARE or a BINARY of it.
 
 ANY FORM      : A SOFTWARE FORM or a LINKED FORM
@@ -106,7 +102,7 @@ If you MODIFY THE SOFTWARE, you:
   * Agree the MODIFICATION is your original creation or that you are able to
     grant the rights to it that this license conveys.
 
-You must PROVIDE all MODIFICATIONS to THE SOFTWARE, even if only used privately.
+You must PROVIDE any MODIFICATION to THE SOFTWARE, even if only used privately.
 ________________________________________________________________________________
 
 == Mixed Licensing ==
@@ -159,9 +155,9 @@ ________________________________________________________________________________
 == Patent Grant ==
 
 If you utilize a patent within THE SOFTWARE, you must PROVIDE a patent grant
-that allows RECIPIENTS of THE SOFTWARE to use the patent in the way that you've
-utilized in THE SOFTWARE under the terms of this license without additional
-charges or restrictions.
+that allows any RECIPIENT of THE SOFTWARE to use the patent in the way that
+you've utilized in THE SOFTWARE under the terms of this license without
+additional charges or restrictions.
 
 The form of the patent grant you PROVIDE must be a PDF document legally signed
 by an individual authorized to grant the use of the patent. The document must

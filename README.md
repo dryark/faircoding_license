@@ -1,1 +1,0 @@
-# faircoding_license

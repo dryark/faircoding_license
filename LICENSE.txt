@@ -1,11 +1,5 @@
 Fair Coding License 1.0+
 https://faircoding.com/license/fc_1_0.txt
-
-Allows free use, MODIFICATION, and redistribution of THE SOFTWARE, under
-conditions to preserve its freedom.
-
-You must PROVIDE all MODIFICATIONS to THE SOFTWARE, even if only used privately.
-
 ________________________________________________________________________________
 
 == Definitions ==
@@ -13,8 +7,7 @@ ________________________________________________________________________________
 THE SOFTWARE
 * The SOURCE CODE itself being licensed
 * SOURCE CODE of MODIFICATIONS to THE SOFTWARE
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 SOURCE CODE
 A human comprehensible representation of software or hardware functionality that
@@ -22,17 +15,16 @@ is useful in some way. Additional steps may be required to do so, such as
 compilation or combination with a SYSTEM.
 
 Examples:
-* "Software Languages" such as C
-* Configuration layouts for creation of fpga bitstreams or electronic circuits.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+  * "Software Languages" such as C
+  * Configuration layouts for creation of fpga bitstreams or electronic circuits.
+  * Documentation in any form ( TXT, DOC, PDF, etc )
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 BINARY
 Data that is not easily human comprehensible, but is useful in some way.
 
 Examples: JVM bytecode, .NET CLR MSIL, x86 machine code, FPGA Bitstream
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 MODIFICATION
 Any change to THE SOFTWARE.
@@ -41,8 +33,7 @@ Includes translation of THE SOFTWARE into SOURCE CODE of another type.
 
 Includes any process to produce new SOURCE CODE from THE SOFTWARE regardless
 of in-between steps in any form including possible BINARY forms.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 LINKING
 The integration, combination, or use of THE SOFTWARE with a SYSTEM by any means.
@@ -53,20 +44,17 @@ Includes but is not limited to:
 * Invoking as a subprocess
 * Any form of software or hardware interaction that allows functionalities to
   be accessed, used, or modified.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 PROVIDE
 To make some content:
 * Be freely available online to the public with reasonable discoverability.
-* Be available without any registration or limitation of who accesses that
-  content or why.
+* Be available without any registration or limitation on access.
 * Remain available as long as THE SOFTWARE is being used or redistributed.
 
-Such content must be provided within 90 days of the first usage of a
-SOFTWARE FORM for any use beyond testing or development of the SOFTWARE FORM.
-
--  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+Such content must be provided within 90 days of the first usage of ANY FORM
+for use beyond testing or development of that ANY FORM.
+_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _ 
 
 SOFTWARE FORM : THE SOFTWARE or a BINARY created from THE SOFTWARE.
 
@@ -86,6 +74,9 @@ MODIFIED      : Have made a MODIFICATION.
 
 MODIFICATIONS : One or more MODIFICATION.
 
+LINKED FORM   : A BINARY created by LINKING of THE SOFTWARE or a BINARY of it.
+
+ANY FORM      : A SOFTWARE FORM or a LINKED FORM
 ________________________________________________________________________________
 
 == Grant of Rights ==
@@ -95,43 +86,41 @@ You may use, copy, MODIFY, redistribute, or create a BINARY of THE SOFTWARE.
 You may engage in LINKING a SOFTWARE FORM with a SYSTEM to create a combined
 work, and use or redistribute that combined work, given that you PROVIDE
 SOURCE CODE of the SOFTWARE FORM used.
-
 ________________________________________________________________________________
 
 == LICENSE Retention and Attribution ==
 
 Any copied or redistributed SOFTWARE FORM must retain this license.
 
-Any MODIFIED SOFTWARE FORM must be licensed under this license.
-
-When a BINARY of THE SOFTWARE is redistributed, you must inform recipients of:
-* THE SOFTWARE that is being licensed.
-* This license for the included BINARY.
-
+When a BINARY or LINKED FORM of THE SOFTWARE is redistributed, you must:
+* Inform recipients of THE SOFTWARE that is being licensed.
+* Inform recipients of this license for the included BINARY or LINKED FORM.
 ________________________________________________________________________________
 
 == Modification ==
 
-If you MODIFY THE SOFTWARE, you must PROVIDE:
-  * The resulting SOURCE CODE
-  * The copyright owner of the change ( name of legal ENTITY )
-  * The date of the change
+If you MODIFY THE SOFTWARE, you:
+  * Will PROVIDE the resulting SOURCE CODE, and license it under this license.
+  * Will PROVIDE the copyright owner of the change ( name of legal ENTITY )
+  * Will PROVIDE the date of the change
+  * Agree the MODIFICATION is your original creation or that you are able to
+    grant the rights to it that this license conveys.
 
+You must PROVIDE all MODIFICATIONS to THE SOFTWARE, even if only used privately.
 ________________________________________________________________________________
 
-== Representation ==
+== Mixed Licensing ==
 
-You agree that your MODIFICATIONS to THE SOFTWARE are your original creations or
-that you have sufficient rights to grant the rights to those MODIFICATIONS
-conveyed by this license.
-
+The redistribution you received may contain SOURCE CODE or one or more BINARY
+under a license different from this one. SOURCE CODE under this license is
+permitted to utilize such content where that license permits, including by
+direction inclusion in the SOURCE CODE or by LINKING.
 ________________________________________________________________________________
 
 == Termination ==
 
 If you fail to comply with the terms of this license, your rights under this
 license terminate immediately.
-
 ________________________________________________________________________________
 
 == Disclaimer of Warranty ==
@@ -142,15 +131,13 @@ THE SOFTWARE is:
 
 All risk associated with using THE SOFTWARE is your own.
 
-Should THE SOFTWARE prove defective, you are responsible.
-
+Should THE SOFTWARE prove defective or unfit for a purpose, you are responsible.
 ________________________________________________________________________________
 
 == Limitation of Liability ==
 
 Unless required by law no CONTRIBUTOR or DISTRIBUTOR will be liable for damages
 of any sort arising out of the use of or inability to use THE SOFTWARE.
-
 ________________________________________________________________________________
 
 == Severability ==
@@ -158,33 +145,27 @@ ________________________________________________________________________________
 If any part of this license is found to be invalid or unenforceable for some
 people or situations, the license portion that can be applied will be for all
 applicable people and situations.
-
 ________________________________________________________________________________
 
 == Prohibition on Circumvention to PROVIDE ==
 
 LINKING that accomplishes any these is forbidden:
 * Reimplementing or substituting features or functionality of a SOFTWARE FORM
-* Altering the internal behavior of a SOFTWARE FORM where it would be more
-  sensible to MODIFY THE SOFTWARE.
+* Altering the behavior of a SOFTWARE FORM where it's more sensible to MODIFY
+  THE SOFTWARE.
 * "Hooking" or "Injection" of changes into a SOFTWARE FORM
-
 ________________________________________________________________________________
 
 == Patent Grant ==
 
-If you utilize a patent within THE SOFTWARE, you must provide a patent grant
-that allows RECIPIENTS of THE SOFTWARE to use the patent in the way that is
+If you utilize a patent within THE SOFTWARE, you must PROVIDE a patent grant
+that allows RECIPIENTS of THE SOFTWARE to use the patent in the way that you've
 utilized in THE SOFTWARE under the terms of this license without additional
 charges or restrictions.
 
-The patent grant must be provided in the form of a legally signed PDF document
+The form of the patent grant you PROVIDE must be a PDF document legally signed
 by an individual authorized to grant the use of the patent. The document must
 clearly identify the patent and the scope of the grant.
-
-The signed patent grant PDF must be included in SOURCE CODE within a directory
-named patents when you PROVIDE THE SOFTWARE.
-
 ________________________________________________________________________________
 
 == License Revision Auto-Adoption ==
@@ -194,10 +175,7 @@ You may remove this section. If you do, remove the "+" from the license version.
 You agree to allow anyone to relicense THE SOFTWARE under the latest revision of
 the "Fair Coding License" as distributed by Dry Ark LLC, given the following
 requirements for that revision:
-
-A. It remains true to the spirit of the original license.
-
-B. It remains focused on preserving the freedom to use, modify, and
-distribute THE SOFTWARE, while preventing private modifications.
-
-C. It adds no cost requirement to utilizing THE SOFTWARE.
+  * It remains true to the spirit of the original license.
+  * It remains focused on preserving the freedom to use, modify, and
+    distribute THE SOFTWARE, while preventing private modifications.
+  * It adds no cost requirement to utilizing THE SOFTWARE.
